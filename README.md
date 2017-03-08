@@ -1,9 +1,11 @@
 # phpipam-legacy-migrator
 
-This migrator takes a PHPIPAM MySQL database from a pre-1.0 version (namely
+This migrator takes a [PHPIPAM][1] MySQL database from a pre-1.0 version (namely
 0.8), queries its VLANs, subnets, and IP addresses, and migrates them to a
 recent PHPIPAM (1.2) via the API. The object here is to support a migration path
 from a version of PHPIPAM that's too old to have a database upgrade path.
+
+[1]: https://phpipam.net/
 
 ## What is Migrated
 
