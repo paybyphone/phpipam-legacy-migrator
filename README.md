@@ -37,8 +37,6 @@ You probably want to start with a clean copy of PHPIPAM. Delete ALL data from it
 application ID for use with it. Do not select crypt as a security type as the
 tool does not support it.
 
-This too
-
 ## Connecting to the DB
 
 Connecting to the DB is pretty straightforward. We support both TCP and default
